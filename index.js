@@ -44,7 +44,7 @@
      $(".description").html("<h2>"+description+"<h2>");
      $(".humidity").html("Humidity : "+humidity+"%");
      $(".windspeed").html("WindSpeed : "+speed+" m/sec")
-     $(".temp-range").html("<h5>"+"Temperature Range : "+temp_min+"°C - "+temp_max+"°C"+"<h5>");;
+//      $(".temp-range").html("<h5>"+"Temperature Range : "+temp_min+"°C - "+temp_max+"°C"+"<h5>");;
    },
    search: function(){
      this.fetchWeather($(".search-bar").val());
